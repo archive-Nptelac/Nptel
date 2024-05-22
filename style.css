@@ -1,35 +1,49 @@
-*{
+* {
     color: rgb(164, 7, 7);
 }
-.header img{
+
+.header img {
     width: 9vh;
     height: 9vh;
 }
-.header h1{
+
+.header h1 {
     /* margin: 1vh; */
     font-size: 7vh;
 }
-.header{
+
+.header {
     display: flex;
     flex-direction: row;
     justify-content: left;
 }
-.img-box img{
+
+.img-box img {
     width: 50%;
     height: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow to the image */
 }
-.img-box{
+
+.img-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center; /* Center the contents */
 }
-.cv-btn{
-    margin: 1vh auto;
+
+.download-btn {
+    margin-top: 1vh; /* Add some space above the button */
+    text-align: center; /* Center align the button */
 }
-.cv-btn button{
+
+.download-btn button {
     border-radius: 6px;
-    color: rgb(188, 236, 246);
-    background-color: rgb(174, 7, 7);
-    padding: 5px 5px;
-    box-shadow: 0px 1px 1px 0px rgb(117, 160, 213);
+    color: white;
+    background-color:  rgb(164, 7, 7); /* Changed button color to maroon */
+    padding: 5px 10px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.downloadBtn:hover{
+    background-color: rgb(142, 14, 14);
 }
