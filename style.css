@@ -1,49 +1,34 @@
 * {
-    color: rgb(164, 7, 7);
+    font-family: "Lora", serif;
+
 }
 
-.header img {
-    width: 9vh;
-    height: 9vh;
-}
-
-.header h1 {
-    /* margin: 1vh; */
-    font-size: 7vh;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-}
-
-.img-box img {
-    width: 50%;
-    height: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Added shadow to the image */
-}
-
-.img-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center the contents */
+body, html {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .download-btn {
-    margin-top: 1vh; /* Add some space above the button */
-    text-align: center; /* Center align the button */
+    display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
 }
 
 .download-btn button {
-    border-radius: 6px;
     color: white;
-    background-color:  rgb(164, 7, 7); /* Changed button color to maroon */
-    padding: 5px 10px;
-    border: 2px solid black;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #3070bf;
+    padding: 7.1px 32px;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    width: 197px;
 }
 
-.downloadBtn:hover{
-    background-color: rgb(142, 14, 14);
+.download-btn button:hover {
+    cursor: pointer;
 }
+
+
